@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fffdf6;
+}
+
+.header-section {
+    padding: 30px;
+    text-align: center;
+}
+
+.title {
+    font-family: Verdana;
+    margin-bottom: 1rem;
+    color: #6d2702;
+    font-size: 4rem;
+}
+
+.main-image {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-family:  Geneva;
+    font-style: italic;
+    font-size: 1.5rem;
+    background: rgb(249, 196, 91);
+}
+
+.main-image img {
+    width: 80%;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 26px #7b093a73;
+}
+
+.bio {
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    width: 40rem;
+}
+
+.bio-heading,  .Aspects {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    color: #5a0707;
+    font-family: Verdana;
+    text-align: center;
+}
+
+.bio p {
+    font-size: 16px;
+    color: #070707;
+    line-height: 1.4rem;
+    text-align: justify;
+    justify-content: center;
+   
+}
+.card-main-container {
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    width: 80rem;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+   text-align: center;
+}
+
+.card-main {
+    height: 250px;
+    width: 28rem;
+    border-radius: 1rem;
+    position: relative;
+    transform-style: preserve-3d;
+    justify-content: center;
+    transition: all .4s ease;
+    align-items: center;
+    margin: 1rem;
+}
+
+.card-main:hover {
+    transform: rotateY(180deg);
+}
+
+.front-card {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 1rem;
+    backface-visibility: hidden;
+    background-image: linear-gradient(to top right, rgb(223, 100, 12), rgb(255, 234, 79));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+
+.back-card {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 1rem;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background-color: rgb(41, 4, 4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.front-card p {
+    margin-top: 1rem;
+    font-size: .9rem;
+    color: rgb(113, 68, 5);
+    justify-content: center;
+}
+.back-card p {
+    font-family: cursive;
+    font-style: italic;
+    margin-top: 1rem;
+    font-size: .9rem;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+}
+
+h2 {
+    font-family: cursive;
+    color: rgb(87, 43, 7);
+    font-weight: bold;
+}
+
+.back-light {
+    color: #fff;
+}
